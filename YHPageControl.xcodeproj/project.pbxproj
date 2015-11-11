@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCECD421BF30ABB00410455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD411BF30ABB00410455 /* main.m */; };
+		ECCECD451BF30ABB00410455 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD441BF30ABB00410455 /* AppDelegate.m */; };
+		ECCECD4B1BF30ABB00410455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCECD491BF30ABB00410455 /* Main.storyboard */; };
+		ECCECD4D1BF30ABB00410455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCECD4C1BF30ABB00410455 /* Assets.xcassets */; };
+		ECCECD501BF30ABB00410455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCECD4E1BF30ABB00410455 /* LaunchScreen.storyboard */; };
+		ECCECD5B1BF30ABB00410455 /* YHPageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD5A1BF30ABB00410455 /* YHPageControlTests.m */; };
+		ECCECD661BF30ABB00410455 /* YHPageControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD651BF30ABB00410455 /* YHPageControlUITests.m */; };
+		ECCECD8B1BF30AD200410455 /* new_feature_1-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCECD751BF30AD200410455 /* new_feature_1-568h@2x.png */; };
+		ECCECD8C1BF30AD200410455 /* new_feature_2-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCECD761BF30AD200410455 /* new_feature_2-568h@2x.png */; };
+		ECCECD8D1BF30AD200410455 /* new_feature_3-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCECD771BF30AD200410455 /* new_feature_3-568h@2x.png */; };
+		ECCECD8E1BF30AD200410455 /* new_feature_pagecontrol_checked_point.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCECD781BF30AD200410455 /* new_feature_pagecontrol_checked_point.png */; };
+		ECCECD8F1BF30AD200410455 /* new_feature_pagecontrol_point.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCECD791BF30AD200410455 /* new_feature_pagecontrol_point.png */; };
+		ECCECD901BF30AD200410455 /* new_feature_share_false.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCECD7A1BF30AD200410455 /* new_feature_share_false.png */; };
+		ECCECD911BF30AD200410455 /* new_feature_share_true.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCECD7B1BF30AD200410455 /* new_feature_share_true.png */; };
+		ECCECD921BF30AD200410455 /* UIImage+YHPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD7D1BF30AD200410455 /* UIImage+YHPageControl.m */; };
+		ECCECD931BF30AD200410455 /* YHBasicPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD7F1BF30AD200410455 /* YHBasicPageControl.m */; };
+		ECCECD941BF30AD200410455 /* YHCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD811BF30AD200410455 /* YHCheckBox.m */; };
+		ECCECD951BF30AD200410455 /* YHPageControlConst.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD841BF30AD200410455 /* YHPageControlConst.m */; };
+		ECCECD961BF30AD200410455 /* YHPageControlCurrentView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD861BF30AD200410455 /* YHPageControlCurrentView.m */; };
+		ECCECD971BF30AD200410455 /* YHPageControlHorizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD881BF30AD200410455 /* YHPageControlHorizontal.m */; };
+		ECCECD981BF30AD200410455 /* YHPageControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD8A1BF30AD200410455 /* YHPageControlView.m */; };
+		ECCECD9D1BF30AE400410455 /* YHFirstTabeleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD9A1BF30AE400410455 /* YHFirstTabeleVC.m */; };
+		ECCECD9E1BF30AE400410455 /* YHNewFeatureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCECD9C1BF30AE400410455 /* YHNewFeatureVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCECD571BF30ABB00410455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCECD351BF30ABB00410455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCECD3C1BF30ABB00410455;
+			remoteInfo = YHPageControl;
+		};
+		ECCECD621BF30ABB00410455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCECD351BF30ABB00410455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCECD3C1BF30ABB00410455;
+			remoteInfo = YHPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECCECD3D1BF30ABB00410455 /* YHPageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHPageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCECD411BF30ABB00410455 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECCECD431BF30ABB00410455 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECCECD441BF30ABB00410455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECCECD4A1BF30ABB00410455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECCECD4C1BF30ABB00410455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECCECD4F1BF30ABB00410455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECCECD511BF30ABB00410455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCECD561BF30ABB00410455 /* YHPageControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHPageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCECD5A1BF30ABB00410455 /* YHPageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPageControlTests.m; sourceTree = "<group>"; };
+		ECCECD5C1BF30ABB00410455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCECD611BF30ABB00410455 /* YHPageControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHPageControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCECD651BF30ABB00410455 /* YHPageControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPageControlUITests.m; sourceTree = "<group>"; };
+		ECCECD671BF30ABB00410455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCECD751BF30AD200410455 /* new_feature_1-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_1-568h@2x.png"; sourceTree = "<group>"; };
+		ECCECD761BF30AD200410455 /* new_feature_2-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_2-568h@2x.png"; sourceTree = "<group>"; };
+		ECCECD771BF30AD200410455 /* new_feature_3-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_3-568h@2x.png"; sourceTree = "<group>"; };
+		ECCECD781BF30AD200410455 /* new_feature_pagecontrol_checked_point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_feature_pagecontrol_checked_point.png; sourceTree = "<group>"; };
+		ECCECD791BF30AD200410455 /* new_feature_pagecontrol_point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_feature_pagecontrol_point.png; sourceTree = "<group>"; };
+		ECCECD7A1BF30AD200410455 /* new_feature_share_false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_feature_share_false.png; sourceTree = "<group>"; };
+		ECCECD7B1BF30AD200410455 /* new_feature_share_true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_feature_share_true.png; sourceTree = "<group>"; };
+		ECCECD7C1BF30AD200410455 /* UIImage+YHPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YHPageControl.h"; sourceTree = "<group>"; };
+		ECCECD7D1BF30AD200410455 /* UIImage+YHPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YHPageControl.m"; sourceTree = "<group>"; };
+		ECCECD7E1BF30AD200410455 /* YHBasicPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBasicPageControl.h; sourceTree = "<group>"; };
+		ECCECD7F1BF30AD200410455 /* YHBasicPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBasicPageControl.m; sourceTree = "<group>"; };
+		ECCECD801BF30AD200410455 /* YHCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCheckBox.h; sourceTree = "<group>"; };
+		ECCECD811BF30AD200410455 /* YHCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCheckBox.m; sourceTree = "<group>"; };
+		ECCECD821BF30AD200410455 /* YHPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPageControl.h; sourceTree = "<group>"; };
+		ECCECD831BF30AD200410455 /* YHPageControlConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPageControlConst.h; sourceTree = "<group>"; };
+		ECCECD841BF30AD200410455 /* YHPageControlConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPageControlConst.m; sourceTree = "<group>"; };
+		ECCECD851BF30AD200410455 /* YHPageControlCurrentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPageControlCurrentView.h; sourceTree = "<group>"; };
+		ECCECD861BF30AD200410455 /* YHPageControlCurrentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPageControlCurrentView.m; sourceTree = "<group>"; };
+		ECCECD871BF30AD200410455 /* YHPageControlHorizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPageControlHorizontal.h; sourceTree = "<group>"; };
+		ECCECD881BF30AD200410455 /* YHPageControlHorizontal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPageControlHorizontal.m; sourceTree = "<group>"; };
+		ECCECD891BF30AD200410455 /* YHPageControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPageControlView.h; sourceTree = "<group>"; };
+		ECCECD8A1BF30AD200410455 /* YHPageControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPageControlView.m; sourceTree = "<group>"; };
+		ECCECD991BF30AE400410455 /* YHFirstTabeleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHFirstTabeleVC.h; sourceTree = "<group>"; };
+		ECCECD9A1BF30AE400410455 /* YHFirstTabeleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHFirstTabeleVC.m; sourceTree = "<group>"; };
+		ECCECD9B1BF30AE400410455 /* YHNewFeatureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHNewFeatureVC.h; sourceTree = "<group>"; };
+		ECCECD9C1BF30AE400410455 /* YHNewFeatureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHNewFeatureVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCECD3A1BF30ABB00410455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCECD531BF30ABB00410455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCECD5E1BF30ABB00410455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCECD341BF30ABB00410455 = {
+			isa = PBXGroup;
+			children = (
+				ECCECD3F1BF30ABB00410455 /* YHPageControl */,
+				ECCECD591BF30ABB00410455 /* YHPageControlTests */,
+				ECCECD641BF30ABB00410455 /* YHPageControlUITests */,
+				ECCECD3E1BF30ABB00410455 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCECD3E1BF30ABB00410455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCECD3D1BF30ABB00410455 /* YHPageControl.app */,
+				ECCECD561BF30ABB00410455 /* YHPageControlTests.xctest */,
+				ECCECD611BF30ABB00410455 /* YHPageControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCECD3F1BF30ABB00410455 /* YHPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				ECCECD731BF30AD200410455 /* YHPageControl */,
+				ECCECD431BF30ABB00410455 /* AppDelegate.h */,
+				ECCECD441BF30ABB00410455 /* AppDelegate.m */,
+				ECCECD991BF30AE400410455 /* YHFirstTabeleVC.h */,
+				ECCECD9A1BF30AE400410455 /* YHFirstTabeleVC.m */,
+				ECCECD9B1BF30AE400410455 /* YHNewFeatureVC.h */,
+				ECCECD9C1BF30AE400410455 /* YHNewFeatureVC.m */,
+				ECCECD491BF30ABB00410455 /* Main.storyboard */,
+				ECCECD4C1BF30ABB00410455 /* Assets.xcassets */,
+				ECCECD4E1BF30ABB00410455 /* LaunchScreen.storyboard */,
+				ECCECD511BF30ABB00410455 /* Info.plist */,
+				ECCECD401BF30ABB00410455 /* Supporting Files */,
+			);
+			path = YHPageControl;
+			sourceTree = "<group>";
+		};
+		ECCECD401BF30ABB00410455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCECD411BF30ABB00410455 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECCECD591BF30ABB00410455 /* YHPageControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCECD5A1BF30ABB00410455 /* YHPageControlTests.m */,
+				ECCECD5C1BF30ABB00410455 /* Info.plist */,
+			);
+			path = YHPageControlTests;
+			sourceTree = "<group>";
+		};
+		ECCECD641BF30ABB00410455 /* YHPageControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCECD651BF30ABB00410455 /* YHPageControlUITests.m */,
+				ECCECD671BF30ABB00410455 /* Info.plist */,
+			);
+			path = YHPageControlUITests;
+			sourceTree = "<group>";
+		};
+		ECCECD731BF30AD200410455 /* YHPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				ECCECD741BF30AD200410455 /* resource */,
+				ECCECD7C1BF30AD200410455 /* UIImage+YHPageControl.h */,
+				ECCECD7D1BF30AD200410455 /* UIImage+YHPageControl.m */,
+				ECCECD7E1BF30AD200410455 /* YHBasicPageControl.h */,
+				ECCECD7F1BF30AD200410455 /* YHBasicPageControl.m */,
+				ECCECD801BF30AD200410455 /* YHCheckBox.h */,
+				ECCECD811BF30AD200410455 /* YHCheckBox.m */,
+				ECCECD821BF30AD200410455 /* YHPageControl.h */,
+				ECCECD831BF30AD200410455 /* YHPageControlConst.h */,
+				ECCECD841BF30AD200410455 /* YHPageControlConst.m */,
+				ECCECD851BF30AD200410455 /* YHPageControlCurrentView.h */,
+				ECCECD861BF30AD200410455 /* YHPageControlCurrentView.m */,
+				ECCECD871BF30AD200410455 /* YHPageControlHorizontal.h */,
+				ECCECD881BF30AD200410455 /* YHPageControlHorizontal.m */,
+				ECCECD891BF30AD200410455 /* YHPageControlView.h */,
+				ECCECD8A1BF30AD200410455 /* YHPageControlView.m */,
+			);
+			path = YHPageControl;
+			sourceTree = "<group>";
+		};
+		ECCECD741BF30AD200410455 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				ECCECD751BF30AD200410455 /* new_feature_1-568h@2x.png */,
+				ECCECD761BF30AD200410455 /* new_feature_2-568h@2x.png */,
+				ECCECD771BF30AD200410455 /* new_feature_3-568h@2x.png */,
+				ECCECD781BF30AD200410455 /* new_feature_pagecontrol_checked_point.png */,
+				ECCECD791BF30AD200410455 /* new_feature_pagecontrol_point.png */,
+				ECCECD7A1BF30AD200410455 /* new_feature_share_false.png */,
+				ECCECD7B1BF30AD200410455 /* new_feature_share_true.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCECD3C1BF30ABB00410455 /* YHPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCECD6A1BF30ABB00410455 /* Build configuration list for PBXNativeTarget "YHPageControl" */;
+			buildPhases = (
+				ECCECD391BF30ABB00410455 /* Sources */,
+				ECCECD3A1BF30ABB00410455 /* Frameworks */,
+				ECCECD3B1BF30ABB00410455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHPageControl;
+			productName = YHPageControl;
+			productReference = ECCECD3D1BF30ABB00410455 /* YHPageControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCECD551BF30ABB00410455 /* YHPageControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCECD6D1BF30ABB00410455 /* Build configuration list for PBXNativeTarget "YHPageControlTests" */;
+			buildPhases = (
+				ECCECD521BF30ABB00410455 /* Sources */,
+				ECCECD531BF30ABB00410455 /* Frameworks */,
+				ECCECD541BF30ABB00410455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCECD581BF30ABB00410455 /* PBXTargetDependency */,
+			);
+			name = YHPageControlTests;
+			productName = YHPageControlTests;
+			productReference = ECCECD561BF30ABB00410455 /* YHPageControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECCECD601BF30ABB00410455 /* YHPageControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCECD701BF30ABB00410455 /* Build configuration list for PBXNativeTarget "YHPageControlUITests" */;
+			buildPhases = (
+				ECCECD5D1BF30ABB00410455 /* Sources */,
+				ECCECD5E1BF30ABB00410455 /* Frameworks */,
+				ECCECD5F1BF30ABB00410455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCECD631BF30ABB00410455 /* PBXTargetDependency */,
+			);
+			name = YHPageControlUITests;
+			productName = YHPageControlUITests;
+			productReference = ECCECD611BF30ABB00410455 /* YHPageControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCECD351BF30ABB00410455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SXT;
+				TargetAttributes = {
+					ECCECD3C1BF30ABB00410455 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Z4X2YT9EFX;
+					};
+					ECCECD551BF30ABB00410455 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Z4X2YT9EFX;
+						TestTargetID = ECCECD3C1BF30ABB00410455;
+					};
+					ECCECD601BF30ABB00410455 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Z4X2YT9EFX;
+						TestTargetID = ECCECD3C1BF30ABB00410455;
+					};
+				};
+			};
+			buildConfigurationList = ECCECD381BF30ABB00410455 /* Build configuration list for PBXProject "YHPageControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCECD341BF30ABB00410455;
+			productRefGroup = ECCECD3E1BF30ABB00410455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCECD3C1BF30ABB00410455 /* YHPageControl */,
+				ECCECD551BF30ABB00410455 /* YHPageControlTests */,
+				ECCECD601BF30ABB00410455 /* YHPageControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCECD3B1BF30ABB00410455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCECD501BF30ABB00410455 /* LaunchScreen.storyboard in Resources */,
+				ECCECD911BF30AD200410455 /* new_feature_share_true.png in Resources */,
+				ECCECD8C1BF30AD200410455 /* new_feature_2-568h@2x.png in Resources */,
+				ECCECD4D1BF30ABB00410455 /* Assets.xcassets in Resources */,
+				ECCECD8E1BF30AD200410455 /* new_feature_pagecontrol_checked_point.png in Resources */,
+				ECCECD901BF30AD200410455 /* new_feature_share_false.png in Resources */,
+				ECCECD4B1BF30ABB00410455 /* Main.storyboard in Resources */,
+				ECCECD8F1BF30AD200410455 /* new_feature_pagecontrol_point.png in Resources */,
+				ECCECD8B1BF30AD200410455 /* new_feature_1-568h@2x.png in Resources */,
+				ECCECD8D1BF30AD200410455 /* new_feature_3-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCECD541BF30ABB00410455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCECD5F1BF30ABB00410455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCECD391BF30ABB00410455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCECD941BF30AD200410455 /* YHCheckBox.m in Sources */,
+				ECCECD981BF30AD200410455 /* YHPageControlView.m in Sources */,
+				ECCECD9E1BF30AE400410455 /* YHNewFeatureVC.m in Sources */,
+				ECCECD9D1BF30AE400410455 /* YHFirstTabeleVC.m in Sources */,
+				ECCECD961BF30AD200410455 /* YHPageControlCurrentView.m in Sources */,
+				ECCECD931BF30AD200410455 /* YHBasicPageControl.m in Sources */,
+				ECCECD921BF30AD200410455 /* UIImage+YHPageControl.m in Sources */,
+				ECCECD951BF30AD200410455 /* YHPageControlConst.m in Sources */,
+				ECCECD451BF30ABB00410455 /* AppDelegate.m in Sources */,
+				ECCECD421BF30ABB00410455 /* main.m in Sources */,
+				ECCECD971BF30AD200410455 /* YHPageControlHorizontal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCECD521BF30ABB00410455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCECD5B1BF30ABB00410455 /* YHPageControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCECD5D1BF30ABB00410455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCECD661BF30ABB00410455 /* YHPageControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCECD581BF30ABB00410455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCECD3C1BF30ABB00410455 /* YHPageControl */;
+			targetProxy = ECCECD571BF30ABB00410455 /* PBXContainerItemProxy */;
+		};
+		ECCECD631BF30ABB00410455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCECD3C1BF30ABB00410455 /* YHPageControl */;
+			targetProxy = ECCECD621BF30ABB00410455 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECCECD491BF30ABB00410455 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCECD4A1BF30ABB00410455 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECCECD4E1BF30ABB00410455 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCECD4F1BF30ABB00410455 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECCECD681BF30ABB00410455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECCECD691BF30ABB00410455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCECD6B1BF30ABB00410455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHPageControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyh.YHPageControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECCECD6C1BF30ABB00410455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHPageControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyh.YHPageControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECCECD6E1BF30ABB00410455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YHPageControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyh.YHPageControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHPageControl.app/YHPageControl";
+			};
+			name = Debug;
+		};
+		ECCECD6F1BF30ABB00410455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YHPageControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyh.YHPageControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHPageControl.app/YHPageControl";
+			};
+			name = Release;
+		};
+		ECCECD711BF30ABB00410455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YHPageControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyh.YHPageControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YHPageControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECCECD721BF30ABB00410455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YHPageControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyh.YHPageControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YHPageControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCECD381BF30ABB00410455 /* Build configuration list for PBXProject "YHPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCECD681BF30ABB00410455 /* Debug */,
+				ECCECD691BF30ABB00410455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCECD6A1BF30ABB00410455 /* Build configuration list for PBXNativeTarget "YHPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCECD6B1BF30ABB00410455 /* Debug */,
+				ECCECD6C1BF30ABB00410455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECCECD6D1BF30ABB00410455 /* Build configuration list for PBXNativeTarget "YHPageControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCECD6E1BF30ABB00410455 /* Debug */,
+				ECCECD6F1BF30ABB00410455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECCECD701BF30ABB00410455 /* Build configuration list for PBXNativeTarget "YHPageControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCECD711BF30ABB00410455 /* Debug */,
+				ECCECD721BF30ABB00410455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCECD351BF30ABB00410455 /* Project object */;
+}
